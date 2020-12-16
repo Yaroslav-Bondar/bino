@@ -67,6 +67,7 @@ button:focus {
     }
     .button-up__wrapper {
         right: 11px;
+        bottom: 128px;
     }
 }
 /* buton to top End */

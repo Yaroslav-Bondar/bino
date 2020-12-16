@@ -671,7 +671,7 @@
     margin: 111px 0 72px 0;
     color: #ffffff;
     text-align: right;
-    font-size: calc(32px + 4 * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(30px + 6 * ((100vw - 320px) / (1920 - 320)));
 }
 .services__title::after {
     content: "";
@@ -836,13 +836,13 @@
     .services__img-area {
         display: none;
     }
-    .services__dots {
-        display: none;
-    }
     .services__text-block {
-        padding: 0 15px;
+        padding: 0 15px 0 30px;  
     }
-}
+    .services__dots {
+        top: 40%;
+    }
+}    
 /* services end */
 
 /* portfolio begin */
