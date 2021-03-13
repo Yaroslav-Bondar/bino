@@ -1,5 +1,4 @@
 var startScreen = document.getElementsByClassName("start-screen__slides");
-// var arrow = document.getElementsByClassName("arrow__item");
 const prev = document.querySelector(".start__slider-arrow-prev");
 const next = document.querySelector(".start__slider-arrow-next");
 var startHeader = document.querySelectorAll(".start__header");

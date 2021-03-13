@@ -2,9 +2,10 @@ var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
   loop: true,
   autoHeight: true,
+  spaceBetween: 30,
   breakpoints: {
     1350: {
-      spaceBetween: 30,
+      // spaceBetween: 30,
       slidesPerGroup: 3,
       slidesPerView: 3,
     },
